@@ -29,7 +29,7 @@ Installation
 
 Clone this repository:
 
-git clone https://github.com/yourusername/career-guidance.git
+git clone https://github.com/AshFirst/RIASEC_CareerGuidance
 
 Navigate to the project folder:
 
@@ -42,10 +42,6 @@ Import the database.sql file into MySQL.
 Configure database credentials in config.php.
 
 Start the local server using XAMPP or WAMP.
-
-Open the browser and go to:
-
-http://localhost/career-guidance/
 
 How It Works
 
