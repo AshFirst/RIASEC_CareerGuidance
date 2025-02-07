@@ -1,0 +1,137 @@
+.in{
+    background-image: url('./earth.gif');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.about-body{
+    background-image: url('./space.gif');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.quiz-body{
+    background-image: url('./space_man.gif');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.result-body{
+    background-image: url('./image_processing20221126-23797-ho4lj6.gif');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+h1 {
+    color: coral;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 300%;
+}
+
+.n2 {
+    text-align: center;
+    margin-top: 10%;
+}
+
+.n1, .n2 {
+    display: flex;
+    justify-content: center;
+}
+
+.opts {
+    display: flex;
+    gap: 10vw;
+}
+
+.Abt {
+    position: relative;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.Abt:hover {
+    transform: scale(2.5);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+}
+
+.card {
+    position: relative;
+    width: 200px; /* Original width */
+    height: 100px; /* Original height */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+}
+
+.card-content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    border-radius: 10px;
+    transition: opacity 0.5s ease;
+    pointer-events: none; /* Prevent interaction when not hovered */
+}
+
+.Abt:hover .card-content {
+    opacity: 3;
+    pointer-events: auto;
+}
+
+.Abt:hover .title {
+    opacity: 0;
+}
+a{
+    color: darkorange;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+}
+
+
+.pyaar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cont {
+    position: absolute;
+    left: 45%;
+    top: 30%;
+    width: 200px; /* Original width */
+    height: 100px; /* Original height */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+}
+
+.quiz-title{
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+}
